@@ -1,5 +1,4 @@
-import { LoginForm } from "@/components/auth/login-form"
-import ThemeSwitch from "@/components/theme/theme-switch"
+import { LoginForm } from "@/components/auth/login-form";
 
 export default function Page() {
   return (
@@ -8,6 +7,5 @@ export default function Page() {
         <LoginForm />
       </div>
     </div>
-  )
+  );
 }
-
